@@ -1,5 +1,5 @@
 {
-  "version": 1.0,
+  "version": "2025.0",
   "waypoints": [
     {
       "anchor": {
@@ -8,7 +8,7 @@
       },
       "prevControl": null,
       "nextControl": {
-        "x": 1.3,
+        "x": 1.49,
         "y": 5.52
       },
       "isLocked": false,
@@ -20,12 +20,12 @@
         "y": 5.52
       },
       "prevControl": {
-        "x": 2.015255811878189,
-        "y": 5.521953324991784
+        "x": 1.8253565248093582,
+        "y": 5.528138854132433
       },
       "nextControl": {
-        "x": 2.1351922037111346,
-        "y": 5.518046675008214
+        "x": 2.325091490779965,
+        "y": 5.511861145867559
       },
       "isLocked": false,
       "linkedName": null
@@ -37,11 +37,11 @@
       },
       "prevControl": {
         "x": 2.0752240077946618,
-        "y": 6.989923600560469
+        "y": 6.799923600560469
       },
       "nextControl": {
         "x": 2.0752240077946618,
-        "y": 7.109923600560468
+        "y": 7.299923600560469
       },
       "isLocked": false,
       "linkedName": null
@@ -52,7 +52,7 @@
         "y": 7.049923600560469
       },
       "prevControl": {
-        "x": 4.113833636038064,
+        "x": 3.956596259126896,
         "y": 7.049923600560469
       },
       "nextControl": null,
@@ -62,10 +62,12 @@
   ],
   "rotationTargets": [],
   "constraintZones": [],
+  "pointTowardsZones": [],
   "eventMarkers": [
     {
       "name": "New Event Marker",
       "waypointRelativePos": 2.0999999999999996,
+      "endWaypointRelativePos": null,
       "command": {
         "type": "parallel",
         "data": {
@@ -83,6 +85,7 @@
     {
       "name": "New Event Marker",
       "waypointRelativePos": 3.0,
+      "endWaypointRelativePos": null,
       "command": {
         "type": "parallel",
         "data": {
@@ -102,18 +105,19 @@
     "maxVelocity": 4.75,
     "maxAcceleration": 3.5,
     "maxAngularVelocity": 600.0,
-    "maxAngularAcceleration": 200.0
+    "maxAngularAcceleration": 200.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 179.44185916907534,
-    "rotateFast": false
+    "rotation": 179.44185916907534
   },
   "reversed": false,
   "folder": "Blue Paths",
-  "previewStartingState": {
-    "rotation": -179.2305740320334,
-    "velocity": 0
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
   },
   "useDefaultConstraints": true
 }

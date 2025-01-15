@@ -1,5 +1,5 @@
 {
-  "version": 1.0,
+  "version": "2025.0",
   "waypoints": [
     {
       "anchor": {
@@ -8,7 +8,7 @@
       },
       "prevControl": null,
       "nextControl": {
-        "x": 1.8338753339418223,
+        "x": 1.8338753339418221,
         "y": 4.578937089400569
       },
       "isLocked": false,
@@ -37,7 +37,7 @@
       },
       "prevControl": {
         "x": 6.4101651376791144,
-        "y": 0.7822470270749806
+        "y": 0.7822470270749807
       },
       "nextControl": {
         "x": 7.499254433707198,
@@ -52,7 +52,7 @@
         "y": 0.75
       },
       "prevControl": {
-        "x": 9.132786012362326,
+        "x": 9.132786012362324,
         "y": 0.75
       },
       "nextControl": null,
@@ -63,8 +63,7 @@
   "rotationTargets": [
     {
       "waypointRelativePos": 1.6500000000000001,
-      "rotationDegrees": 0,
-      "rotateFast": false
+      "rotationDegrees": 0.0
     }
   ],
   "constraintZones": [
@@ -76,14 +75,18 @@
         "maxVelocity": 2.0,
         "maxAcceleration": 2.0,
         "maxAngularVelocity": 600.0,
-        "maxAngularAcceleration": 200.0
+        "maxAngularAcceleration": 200.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
       }
     }
   ],
+  "pointTowardsZones": [],
   "eventMarkers": [
     {
       "name": "New Event Marker",
       "waypointRelativePos": 1.6500000000000001,
+      "endWaypointRelativePos": null,
       "command": {
         "type": "parallel",
         "data": {
@@ -101,6 +104,7 @@
     {
       "name": "New Event Marker",
       "waypointRelativePos": 3.0,
+      "endWaypointRelativePos": null,
       "command": {
         "type": "parallel",
         "data": {
@@ -120,18 +124,19 @@
     "maxVelocity": 4.75,
     "maxAcceleration": 3.5,
     "maxAngularVelocity": 600.0,
-    "maxAngularAcceleration": 200.0
+    "maxAngularAcceleration": 200.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0,
-    "rotateFast": false
+    "rotation": 0.0
   },
   "reversed": false,
   "folder": "Blue Paths",
-  "previewStartingState": {
-    "rotation": -52.305759533310926,
-    "velocity": 0
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
   },
   "useDefaultConstraints": true
 }

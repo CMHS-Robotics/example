@@ -1,5 +1,5 @@
 {
-  "version": 1.0,
+  "version": "2025.0",
   "waypoints": [
     {
       "anchor": {
@@ -56,8 +56,8 @@
         "y": 7.449541822160567
       },
       "nextControl": {
-        "x": 9.107087312154386,
-        "y": 7.450232172523865
+        "x": 8.997084222575321,
+        "y": 7.4504146033902465
       },
       "isLocked": false,
       "linkedName": null
@@ -68,8 +68,8 @@
         "y": 7.45
       },
       "prevControl": {
-        "x": 7.417999355229483,
-        "y": 7.40829458197378
+        "x": 7.273865769072367,
+        "y": 7.32568830763459
       },
       "nextControl": null,
       "isLocked": false,
@@ -79,13 +79,11 @@
   "rotationTargets": [
     {
       "waypointRelativePos": 1.0499999999999998,
-      "rotationDegrees": 0.0,
-      "rotateFast": false
+      "rotationDegrees": 0.0
     },
     {
       "waypointRelativePos": 3.0,
-      "rotationDegrees": 0.0,
-      "rotateFast": false
+      "rotationDegrees": 0.0
     }
   ],
   "constraintZones": [
@@ -97,14 +95,18 @@
         "maxVelocity": 2.0,
         "maxAcceleration": 2.5,
         "maxAngularVelocity": 600.0,
-        "maxAngularAcceleration": 200.0
+        "maxAngularAcceleration": 200.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
       }
     }
   ],
+  "pointTowardsZones": [],
   "eventMarkers": [
     {
       "name": "New Event Marker",
       "waypointRelativePos": 3.05,
+      "endWaypointRelativePos": null,
       "command": {
         "type": "parallel",
         "data": {
@@ -122,6 +124,7 @@
     {
       "name": "New Event Marker",
       "waypointRelativePos": 4.0,
+      "endWaypointRelativePos": null,
       "command": {
         "type": "parallel",
         "data": {
@@ -141,18 +144,19 @@
     "maxVelocity": 4.75,
     "maxAcceleration": 3.5,
     "maxAngularVelocity": 600.0,
-    "maxAngularAcceleration": 200.0
+    "maxAngularAcceleration": 200.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.8277486669573308,
-    "rotateFast": false
+    "rotation": 0.8277486669573308
   },
   "reversed": false,
   "folder": "Red Paths",
-  "previewStartingState": {
-    "rotation": -58.57043438516132,
-    "velocity": 0
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
   },
   "useDefaultConstraints": true
 }

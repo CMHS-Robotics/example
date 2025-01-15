@@ -1,5 +1,5 @@
 {
-  "version": 1.0,
+  "version": "2025.0",
   "waypoints": [
     {
       "anchor": {
@@ -8,7 +8,7 @@
       },
       "prevControl": null,
       "nextControl": {
-        "x": 15.801770256716209,
+        "x": 15.991770256716208,
         "y": 4.602358762494137
       },
       "isLocked": false,
@@ -25,7 +25,7 @@
       },
       "nextControl": {
         "x": 10.868075372014445,
-        "y": 1.5661610922778677
+        "y": 1.5661610922778675
       },
       "isLocked": false,
       "linkedName": null
@@ -36,8 +36,8 @@
         "y": 2.45
       },
       "prevControl": {
-        "x": 9.89039463851487,
-        "y": 2.450410975297433
+        "x": 9.972399524106505,
+        "y": 2.450611589061955
       },
       "nextControl": {
         "x": 8.726979165793086,
@@ -52,7 +52,7 @@
         "y": 2.45
       },
       "prevControl": {
-        "x": 7.716028020857753,
+        "x": 7.841028020857753,
         "y": 2.45
       },
       "nextControl": null,
@@ -63,8 +63,7 @@
   "rotationTargets": [
     {
       "waypointRelativePos": 1.0,
-      "rotationDegrees": 0.0,
-      "rotateFast": false
+      "rotationDegrees": 0.0
     }
   ],
   "constraintZones": [
@@ -76,14 +75,18 @@
         "maxVelocity": 3.0,
         "maxAcceleration": 3.0,
         "maxAngularVelocity": 600.0,
-        "maxAngularAcceleration": 200.0
+        "maxAngularAcceleration": 200.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
       }
     }
   ],
+  "pointTowardsZones": [],
   "eventMarkers": [
     {
       "name": "New Event Marker",
       "waypointRelativePos": 1.4,
+      "endWaypointRelativePos": null,
       "command": {
         "type": "parallel",
         "data": {
@@ -101,6 +104,7 @@
     {
       "name": "New Event Marker",
       "waypointRelativePos": 3.0,
+      "endWaypointRelativePos": null,
       "command": {
         "type": "parallel",
         "data": {
@@ -120,18 +124,19 @@
     "maxVelocity": 4.75,
     "maxAcceleration": 3.5,
     "maxAngularVelocity": 600.0,
-    "maxAngularAcceleration": 200.0
+    "maxAngularAcceleration": 200.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": -0.47258812322041494,
-    "rotateFast": false
+    "rotation": -0.47258812322041494
   },
   "reversed": false,
   "folder": "Red Paths",
-  "previewStartingState": {
-    "rotation": 59.27645407583854,
-    "velocity": 0
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
   },
   "useDefaultConstraints": true
 }

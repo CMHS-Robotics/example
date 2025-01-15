@@ -1,5 +1,5 @@
 {
-  "version": 1.0,
+  "version": "2025.0",
   "waypoints": [
     {
       "anchor": {
@@ -8,7 +8,7 @@
       },
       "prevControl": null,
       "nextControl": {
-        "x": 3.98553618202814,
+        "x": 4.17553618202814,
         "y": 7.0
       },
       "isLocked": false,
@@ -20,12 +20,12 @@
         "y": 7.0
       },
       "prevControl": {
-        "x": 1.8780752091292552,
-        "y": 6.9456215327778015
+        "x": 1.9583726788599896,
+        "y": 6.773423053240839
       },
       "nextControl": {
-        "x": 1.827361017720371,
-        "y": 7.0543784672221985
+        "x": 1.7470635479896373,
+        "y": 7.226576946759162
       },
       "isLocked": false,
       "linkedName": null
@@ -36,12 +36,12 @@
         "y": 5.492382339971527
       },
       "prevControl": {
-        "x": 1.822718113424813,
-        "y": 5.544343864198593
+        "x": 1.7277181134248134,
+        "y": 5.708888690917637
       },
       "nextControl": {
-        "x": 1.882718113424813,
-        "y": 5.44042081574446
+        "x": 1.9777181134248125,
+        "y": 5.275875989025416
       },
       "isLocked": false,
       "linkedName": null
@@ -52,8 +52,8 @@
         "y": 5.492382339971527
       },
       "prevControl": {
-        "x": 1.1757953702436992,
-        "y": 5.457967753790464
+        "x": 1.3314342586586077,
+        "y": 5.348988230883765
       },
       "nextControl": null,
       "isLocked": false,
@@ -70,27 +70,31 @@
         "maxVelocity": 1.5,
         "maxAcceleration": 1.5,
         "maxAngularVelocity": 600.0,
-        "maxAngularAcceleration": 200.0
+        "maxAngularAcceleration": 200.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
       }
     }
   ],
+  "pointTowardsZones": [],
   "eventMarkers": [],
   "globalConstraints": {
     "maxVelocity": 4.75,
     "maxAcceleration": 3.5,
     "maxAngularVelocity": 600.0,
-    "maxAngularAcceleration": 200.0
+    "maxAngularAcceleration": 200.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 179.33831218338656,
-    "rotateFast": false
+    "rotation": 179.33831218338656
   },
   "reversed": false,
   "folder": "Blue Paths",
-  "previewStartingState": {
-    "rotation": 179.49577664828237,
-    "velocity": 0
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
   },
   "useDefaultConstraints": true
 }
